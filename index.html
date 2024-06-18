@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>Hello Mr Bayel!</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png?20141107110902"
+          alt="JS logo"
+          width="60px"
+        />
+        <div>
+          <h1>Javascript</h1>
+          <p>Javascript is a popular programming language.</p>
+        </div>
+      </header>
+      <div class="content">
+        <div class="tabs">
+          <button id="btn-features" class="tab">Features</button>
+          <button id="btn-capabilities" class="tab">Capabilities</button>
+          <button id="btn-practices" class="tab">Practices</button>
+        </div>
+        <div id="tab-content" class="tab-content">Content</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body> 
 </html>
